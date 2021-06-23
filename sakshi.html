@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My Personal info website - RESUME TYPE">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Sakshi Asati">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Sakshi Asati</title>
+
+    <style>
+        body{
+            background-color: black;
+            font-style: oblique;
+            color:white;
+        }
+        .logoimg{
+            border-radius: 20px;
+            width:40px;
+            height:40px;
+        }
+        .nav-item>a{
+            color:white;
+            font-size: 22px;
+        }
+         .nav-item>a:hover::after{
+             content:"\2192";
+             
+         }
+         .jumbotron-fluid{
+            background-color: black;
+             font-style: oblique;
+             overflow: hidden;
+             width:100%;
+             height:auto;
+         }
+         .cover{
+             width:400px;
+             height:400px;
+             border-radius: 50%;
+             transition: 2s width 2s transform;
+
+         }
+         .cover:hover{
+          transform: scale(1.1);
+          border:20px solid #0E9C9B;
+         }
+         .media>img{
+             width:150px;
+             height:150px;
+             transition: transform 1s ease-in-out;
+             border-radius: 50%;
+         }
+         .media>img:hover{
+            transform: rotate(360deg);
+            overflow: hidden;
+         }
+         .carousel-item>.row>.col-3>img{
+            width:100%;
+            /* border-radius:50%; */
+            height:200px;
+            transition: 2s width 2s transform ;
+         }
+         .carousel-item>.row>.col-3>img:hover{
+             transform:scale(1.1);
+
+         }
+         .carousel-indicators>li{
+            margin-top: 20px;
+             width:20px;
+             height:20px;
+             border-radius: 100%;
+         }
+         .carousel-indicators>li:hover{
+             background-color:#0E9C9B;
+         }
+         .card-img-top{
+             width:100%;
+             height:200px;
+         }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style = "background-color: #0E9C9B;">
+        <a class="navbar-brand" href="#">
+            <img src = "image.jpg" alt ="Sakshi" class = "logoimg">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active px-4">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+               
+                <li class="nav-item  ">
+                    <a class="nav-link" href="#participate">Participations</a>
+                </li>
+                <li class="nav-item  px-1">
+                    <a class="nav-link" href="#interest">Interests</a>
+                </li>
+                <li class="nav-item  px-1">
+                    <a class="nav-link" href="#projects">Project</a>
+                </li>
+               
+                <li class="nav-item  px-1 ">
+                    <a class="nav-link" href="#connect">Contact</a>
+                </li>
+                <li class="nav-item  px-1">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                  
+            </ul>
+            
+        </div>
+    </nav>
+
+
+    <!-- This is the jumbotron class -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container ">
+                <center><img class="cover" src="image.jpg" alt="Sakshi">
+                    <br>
+                    <h2 class ="mt-4 ">______Sakshi Asati______</h2><br /><br />
+                    
+                    <p>Hello,I am Sakshi Asati.I was born on 30 August 2000 in Damoh small city of Madhya Pradesh in India. I have my small
+                        and loving family.I believe that spending money for health and education is worth.</p>
+                </center>
+
+                    
+             
+         </div>
+    </div>
+
+    <hr style="border:1px solid gray">
+
+    <div class = "container-fluid my-4" align = "center" style = "background-color:black" id = "education">
+        
+       
+
+        
+             <h1 class = "my-4">Education</h1>
+              
+             
+             <dl class = "my-4">
+             	<dt>10<sup> th</sup> Education</dt>
+             	<dd>I have completed my class 10 from <a href = ""><em> Good Shepherd Convent Higher Secoundry School</em></a></dd><br/>
+
+             	<dt>12<sup> th</sup> Education</dt>
+             	<dd>I have completed my class 12 from <a href = ""><em> Good Shepherd Convent Higher Secoundry School</em></a> in Physics, Chemistry, Maths</dd><br/>
+            
+            
+            
+             	<dt>BTech (2018 - 2022) </dt>
+             	<dd>I am pursuing BTech in <em><a href = "https://www.careers360.com/courses/computer-science-engineering-course">Computer Science Engineering </a></em>from <em><a href = "https://www.oistbpl.com/"> Oriental Institute of Science & Technology (Bhopal)</a></em> and in pre-final year .
+                </dd>
+             </dl>
+             
+        
+        </div>
+  
+
+          <br><br>
+
+            <h1 class = "text-center my-4">Skills</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner my-4">
+                    <div class="carousel-item active my-4">
+                        <h4 class="text-center my-4" style = "color:#0E9C9B">Programming Languages</h4>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <img src = "c.png">
+                            </div>
+                        
+                        <div class="col-3">
+                            <img src="c++.png">
+                        </div>
+                        <div class="col-3">
+                            <img src="python.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img src="mysql.png">
+                        </div>
+
+                     </div>
+                    </div>
+
+                    <div class="carousel-item my-4 ">
+                        <h4 class="text-center my-4" style = "color:#0E9C9B">WebDeveloping</h4>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="html.jpg">
+                            </div>
+                        
+                            <div class="col-3">
+                                <img src="css.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img src="bootstrap.png">
+                            </div>
+                            <div class="col-3">
+                                <img src="mysql.png">
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item my-4 ">
+                        <h4 class="text-center my-4" style = "color:#0E9C9B">Tools</h4>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="word.jpg">
+                            </div>
+                    
+                            <div class="col-3">
+                                <img src="powerpoint.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img src="vs.png">
+                            </div>
+                            <div class="col-3">
+                                <img src="git.png">
+                            </div>
+                    
+                        </div>
+                    </div>
+                      
+                    </div>
+                </div>
+               
+            </div>
+
+        <hr style="border:1px solid gray">
+
+        <div class="container my-4 py-4" style="background-color: black;">
+            <h1 class="text-center my-4 py-4" id="participate">Participation</h1>
+            <!--SIH-->
+            <div class="media my-4">
+                <img src="smart.png" />
+                <div class="media-body mx-4 ">
+                    <h5 style = "color:#0E9C9B"> <em>Smart India Hackthon(2020)</em></h5>
+                    <p>When You look anything which has India written with it , It means its a huge thing . So, our team 6bit
+                        participated in SIH and we were the finilist of SIH 2020 . It was great Experience to look and solve on
+                        the
+                        real time problem and to meet with all the great people who have great skills and knowledge . Such
+                        skilled
+                        people can change the world. </p>
+                </div>
+            </div>
+            <!--Snapchat-->
+            <div class="media my-4">
+                <img src="snap.jpg" />
+                <div class="media-body  mx-4">
+                    <h5 style = "color:#0E9C9B">Participated in <em>Lensathon-India's First Augumented Reality Lens Creation Hackthon by Snapchat
+                            India</em>
+                    </h5>
+                    <p>When ever any one used the camera and has snapchat in it.They take different filters and click there
+                        pictures. I always wondered how they create it .With the eagerness to know about it I participated in
+                        the
+                        competition and also made some lenses...<br />
+                        <a href="">Enjoy the Nature</a>,<a href="">Aware of Corona</a>,<a href="">Frames</a>,
+                    </p>
+                </div>
+            </div>
+            <!--Coding-->
+            <div class="media my-4">
+                <img src="code.jpg">
+                <div class="media-body mx-4 ">
+                    <h5 style = "color:#0E9C9B"> Participte in various coding-competition held online</h5>
+                    <p>To upgrade my skills I participate in various coding competion.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr style="border:1px solid gray">
+
+        <div class = "container-fluid my-4 text-center" id = "projects">
+            <h1 class = " my-4 py-4">
+                Projects 
+            </h1>
+            <p>Projects are something which tells how you have worked on solving particular problem. It can be on current scenerio or future work. To know about what you have studied and what you can do with your knowledge we make projects. Here is my Github link which contain about my projects on which I have worked <a href = "https://github.com/Sakshi2000-hash" >Github</a> </p>
+            <h1 class = "my-4 py-4">
+                Experience
+            </h1>
+            <dl class="my-4">
+                <dt class="mt-4" style = "color:#0E9C9B">Brand-Promoter @ Bloombuzz</dt>
+                <dd><b>Role: </b>Contact people who owns the Startus to share their stories</dd>
+                
+            
+                <dt class="mt-4" style = "color:#0E9C9B">Campus-Ambassador @ International IMUN</dt>
+                <dd><b>Role: </b>Make people aware about what is IMUN and convince them to join the IMUN Conference</dd>
+               
+                <dt class="mt-4" style = "color:#0E9C9B">Bootstrap Coding Internship @ Suven Consultants & Technology Pvt. Ltd.</dt>
+                <dd><b>Role: </b> Designed the static website which was asked by the company.</dd>
+            
+                <dt class="mt-4" style = "color:#0E9C9B">WebDesignInter @ The Spark Foundation</dt>
+                <dd><b>Role: </b> Designed the dynamic website which was asked by the company.</dd>
+                
+            </dl>
+            
+
+        </div>
+
+        <hr style="border:1px solid gray">
+
+        <div class = "container">
+           
+            <h1 class = "my-4 text-center" id = "interest">Interests</h1>
+            <div class="row">
+                <div class = "col">
+                    <div class="media my-4">
+                        <img src="cooking.jpg">
+                        <div class="media-body mx-4 ">
+                            <h5 style = "color:#0E9C9B"> Cooking</h5>
+                            <p >Cooking gives me pleasure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col">
+
+                    <div class="media my-4">
+                        <img src="garden.jpg">
+                        <div class="media-body mx-4 ">
+                            <h5 style = "color:#0E9C9B">Gardening</h5>
+                            <p>Greenery is must for survival</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="media my-4">
+                        <img src="play.jpg">
+                        <div class="media-body mx-4 ">
+                            <h5 style = "color:#0E9C9B">Play with my Pet</h5>
+                            <p>Gives me peace</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+            
+                    <div class="media my-4">
+                        <img src="quote.jpeg">
+                        <div class="media-body mx-4 ">
+                            <h5 style = "color:#0E9C9B">Writing Quotes</h5>
+                            <p>Helps me finding the inner me</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr style="border:1px solid gray"> 
+        <div class="container-fluid my-4" align="center" id="connect">
+           
+            <h2 class = "my-4">Do you want to connect with me ?</h2>
+           
+            <span>Connect me on Linkedin &nbsp;<a href="https://www.linkedin.com/in/sakshi-asati">Linkedin</a></span><br />
+            <span>Connect me on Instagram &nbsp; <a href=" ">Instagram</a></span><br />
+            <span>Connect me on YourQuotes &nbsp; <a href=" ">YourQuotes</a></span><br />
+            <span>Connect me on Youtube &nbsp; <a href="https://www.youtube.com/channel/UC5Umfk4hWtnwgGj9bl60Z1g">Youtube</a></span><br />
+            <span>Gmail &nbsp; sakshiasati2000@gmail.com</a></span><br />
+        </div>
+
+        <footer class = "text-center py-4" style = "background-color: #0E9C9B;"> 
+               <span><b>&copy; CopyRight 2021 by Sakshi</b></span>
+        </footer>
+           
+
+  
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
